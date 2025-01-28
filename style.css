@@ -6,10 +6,6 @@ border-radius: 50%;
 position: relative;
 animation: bounce 2s infinite;
 }
-@keyframes bounce {
-  0%, 100% 1 transform: translateY (0); }
-50% { transform: translateY(-100px); }
-｝
 
 .ball2 {
 width: 40 px;
@@ -19,10 +15,6 @@ border-radius: 40%;
 position: relative;
 animation: bounce 4s infinite;
 }
-@keyframes bounce {
-  0%, 100% 1 transform: translateY (0); }
-50% { transform: translateY(-100px); }
-｝
 
 .ball3 {
 width: 40 px;
@@ -33,6 +25,6 @@ position: relative;
 animation: bounce 4s infinite;
 }
 @keyframes bounce {
-  0%, 100% 1 transform: translateY (0); }
+  0%, 100% { transform: translateY (0); }
 50% { transform: translateY(-100px); }
 ｝
