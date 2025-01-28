@@ -24,7 +24,7 @@ animation: bounce 4s infinite;
 50% { transform: translateY(-100px); }
 ｝
 
-.ball2 {
+.ball3 {
 width: 40 px;
 height: 40 px;
 background-color: blue;
