@@ -1,6 +1,6 @@
 .ball1 {
-width: 50 px;
-height: 50 px;
+width: 200 px;
+height: 200 px;
 background-color: red;
 border: dotted;
 border-radius: 50%;
@@ -9,8 +9,8 @@ animation: bounce 2s infinite;
 }
 
 .ball2 {
-width: 40 px;
-height: 40 px;
+width: 400 px;
+height: 400 px;
 background-color: blue;
 border-radius: 40%;
 position: relative;
@@ -18,12 +18,12 @@ animation: bounce 4s infinite;
 }
 
 .ball3 {
-width: 40 px;
-height: 40 px;
+width: 300 px;
+height: 300 px;
 background-color: green;
 border-radius: 40%;
 position: relative;
-animation: bounce 4s infinite;
+animation: bounce 1s infinite;
 }
 @keyframes bounce {
   0%, 100% { transform: translateY (0); }
