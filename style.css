@@ -2,8 +2,7 @@
 width: 200 px;
 height: 200 px;
 background-color: red;
-border: dotted;
-border-radius: 50%;
+  border-radius: 50%;
 position: relative;
 animation: bounce 2s infinite;
 }
@@ -12,7 +11,7 @@ animation: bounce 2s infinite;
 width: 400 px;
 height: 400 px;
 background-color: blue;
-border-radius: 40%;
+  border-radius: 40%;
 position: relative;
 animation: bounce 4s infinite;
 }
@@ -21,7 +20,7 @@ animation: bounce 4s infinite;
 width: 300 px;
 height: 300 px;
 background-color: green;
-border-radius: 40%;
+  border-radius: 40%;
 position: relative;
 animation: bounce 1s infinite;
 }
