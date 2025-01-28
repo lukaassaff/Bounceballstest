@@ -2,6 +2,7 @@
 width: 50 px;
 height: 50 px;
 background-color: red;
+border: dotted;
 border-radius: 50%;
 position: relative;
 animation: bounce 2s infinite;
@@ -19,7 +20,7 @@ animation: bounce 4s infinite;
 .ball3 {
 width: 40 px;
 height: 40 px;
-background-color: blue;
+background-color: green;
 border-radius: 40%;
 position: relative;
 animation: bounce 4s infinite;
