@@ -1,30 +1,40 @@
-.ball1 {
-width: 200 px;
-height: 200 px;
-background-color: red;
+body {
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-end;
+  height: 100vh;
+  background-color: #f0f0f0;
+  margin: 0;
+}
+
+.ball {
   border-radius: 50%;
-position: relative;
-animation: bounce 2s infinite;
+  position: relative;
+  animation: bounce infinite;
+}
+
+.ball1 {
+  width: 200px;
+  height: 200px;
+  background-color: red;
+  animation-duration: 2s;
 }
 
 .ball2 {
-width: 400 px;
-height: 400 px;
-background-color: blue;
-  border-radius: 40%;
-position: relative;
-animation: bounce 4s infinite;
+  width: 400px;
+  height: 400px;
+  background-color: blue;
+  animation-duration: 4s;
 }
 
 .ball3 {
-width: 300 px;
-height: 300 px;
-background-color: green;
-  border-radius: 40%;
-position: relative;
-animation: bounce 1s infinite;
+  width: 300px;
+  height: 300px;
+  background-color: green;
+  animation-duration: 1s;
 }
+
 @keyframes bounce {
-  0%, 100% { transform: translateY (0); }
-50% { transform: translateY(-100px); }
-｝
+  0%, 100% { transform: translateY(0); }
+  50% { transform: translateY(-100px); }
+}
